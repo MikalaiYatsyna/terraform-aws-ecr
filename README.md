@@ -25,6 +25,7 @@ No resources.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_keep_last_images"></a> [keep\_last\_images](#input\_keep\_last\_images) | Number of untagged images to keep | `number` | `1` | no |
+| <a name="input_repo_name"></a> [repo\_name](#input\_repo\_name) | Repository name | `any` | n/a | yes |
 
 ## Outputs
 
