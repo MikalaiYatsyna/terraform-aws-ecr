@@ -10,10 +10,10 @@ module "ecr" {
     rules = [
       {
         rulePriority = 1
-        description = "Keep only ${var.keep_last_images} latest untagged image(s)",
+        description  = "Keep only ${var.keep_last_images} latest untagged image(s)",
         selection = {
-          tagStatus = "untagged"
-          countType = "imageCountMoreThan",
+          tagStatus   = "untagged"
+          countType   = "imageCountMoreThan",
           countNumber = var.keep_last_images
         }
         action = {
