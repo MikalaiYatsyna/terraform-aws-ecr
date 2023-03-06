@@ -23,8 +23,3 @@ module "ecr" {
     ]
   })
 }
-
-resource "aws_ecr_pull_through_cache_rule" "docker_hub" {
-  ecr_repository_prefix = "public"
-  upstream_registry_url = "registry.hub.docker.com"
-}
