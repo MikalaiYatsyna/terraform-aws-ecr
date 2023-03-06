@@ -3,7 +3,7 @@ module "ecr" {
   version = "1.6.0"
 
   repository_type = "public"
-  repository_name = "mikalai_yatsyna"
+  repository_name = var.repo_name
 
   create_lifecycle_policy = true
   repository_lifecycle_policy = jsonencode({
