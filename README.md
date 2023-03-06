@@ -8,9 +8,7 @@ No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.57.0 |
+No providers.
 
 ## Modules
 
@@ -20,9 +18,7 @@ No requirements.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_ecr_pull_through_cache_rule.docker_hub](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_pull_through_cache_rule) | resource |
+No resources.
 
 ## Inputs
 
