@@ -1,2 +1,5 @@
-# terraform-aws-ecr
-Terraform module to create ECR and cache for docker hub
+## Introduction
+Terraform module to provision ECR registry in AWS
+
+<!-- BEGIN_TF_DOCS -->
+<!-- END_TF_DOCS -->
