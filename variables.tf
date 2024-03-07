@@ -1,8 +1,8 @@
 variable "repo_name" {
-  description = "Repository name"
+  description = "Defines the name of the repository."
 }
 
 variable "keep_last_images" {
-  description = "Number of untagged images to keep"
+  description = "Specifies the number of untagged images to retain."
   default     = 1
 }

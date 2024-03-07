@@ -23,3 +23,12 @@ module "ecr" {
     ]
   })
 }
+
+# When using modules only, doc is not generating providers section.
+# This can be hacked by resource with count 0
+resource "aws_ec2_tag" "dummy_tag" {
+  count       = 0
+  key         = ""
+  resource_id = ""
+  value       = ""
+}
