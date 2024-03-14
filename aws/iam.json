@@ -13,7 +13,6 @@
         "ecr-public:SetRepositoryPolicy",
         "ecr-public:DeleteRepositoryPolicy",
         "ecr-public:ListTagsForResource"
-
       ],
       "Resource": "arn:aws:ecr:{{Region}}:{{AccountId}}:repository/*"
     }
