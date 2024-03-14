@@ -22,7 +22,8 @@ The following IAM policy needs to be attached to the role that is assumed during
         "ecr-public:GetRepositoryCatalogData",
         "ecr-public:GetRepositoryPolicy",
         "ecr-public:SetRepositoryPolicy",
-        "ecr-public:DeleteRepositoryPolicy"
+        "ecr-public:DeleteRepositoryPolicy",
+        "ecr-public:ListTagsForResource"
       ],
       "Resource": "arn:aws:ecr:{{Region}}:{{AccountId}}:repository/*"
     }
