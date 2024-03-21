@@ -25,7 +25,7 @@ The following IAM policy needs to be attached to the role that is assumed during
         "ecr-public:DeleteRepositoryPolicy",
         "ecr-public:ListTagsForResource"
       ],
-      "Resource": "arn:aws:ecr:*:${AWS::AccountId}:repository/*"
+      "Resource": "arn:aws:ecr-public:*:${AWS::AccountId}:repository/*"
     }
   ]
 }
