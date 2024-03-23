@@ -56,7 +56,7 @@ The following IAM policy needs to be attached to the role that is assumed during
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_keep_last_images"></a> [keep\_last\_images](#input\_keep\_last\_images) | Specifies the number of untagged images to retain. | `number` | `1` | no |
-| <a name="input_repo_name"></a> [repo\_name](#input\_repo\_name) | Defines the name of the repository. | `any` | n/a | yes |
+| <a name="input_repo_name"></a> [repo\_name](#input\_repo\_name) | Defines the name of the repository. | `string` | n/a | yes |
 ## Outputs
 
 | Name | Description |
