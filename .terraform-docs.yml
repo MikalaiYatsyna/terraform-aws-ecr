@@ -27,7 +27,6 @@ content: |-
   {{ .Providers }}
   {{ .Modules  }}
   {{ .Resources }}
-  {{- end }} 
   {{ .Inputs }}
   {{ .Outputs }}
 
