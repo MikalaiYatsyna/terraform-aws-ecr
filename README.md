@@ -35,12 +35,12 @@ The following IAM policy needs to be attached to the role that is assumed during
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.42.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.43.0 |
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.42.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.43.0 |
 ## Modules
 
 | Name | Source | Version |
@@ -50,7 +50,7 @@ The following IAM policy needs to be attached to the role that is assumed during
 
 | Name | Type |
 |------|------|
-| [aws_ec2_tag.dummy_tag](https://registry.terraform.io/providers/hashicorp/aws/5.42.0/docs/resources/ec2_tag) | resource |
+| [aws_ec2_tag.dummy_tag](https://registry.terraform.io/providers/hashicorp/aws/5.43.0/docs/resources/ec2_tag) | resource |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
