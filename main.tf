@@ -1,6 +1,6 @@
 module "ecr" {
   source  = "terraform-aws-modules/ecr/aws"
-  version = "2.0.0"
+  version = "2.1.0"
 
   repository_type = "public"
   repository_name = var.repo_name
