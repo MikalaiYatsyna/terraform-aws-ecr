@@ -45,7 +45,7 @@ The following IAM policy needs to be attached to the role that is assumed during
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_ecr"></a> [ecr](#module\_ecr) | terraform-aws-modules/ecr/aws | 2.0.0 |
+| <a name="module_ecr"></a> [ecr](#module\_ecr) | terraform-aws-modules/ecr/aws | 2.1.0 |
 ## Resources
 
 | Name | Type |
